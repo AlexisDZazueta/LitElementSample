@@ -40,7 +40,7 @@ class UpdatedProperties extends LitElement {
   loadStuff() {
     setInterval(() => {
       const loaded = new CustomEvent('stuff-loaded', {
-        detail: 'Ya Cargo Prro xd',
+        detail: 'Loading Complete',
       });
       this.dispatchEvent(loaded);
     }, 3000);
