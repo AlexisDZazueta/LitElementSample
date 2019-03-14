@@ -21,7 +21,9 @@ class MyElement extends LitElement {
      */
     return html`
       <!-- Template Content -->
-      <p>A paragraph</p>
+      <div>
+        <p>A paragraph</p>
+      </div>
     `;
   }
 }
