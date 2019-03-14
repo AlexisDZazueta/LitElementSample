@@ -1,0 +1,32 @@
+{
+  "name": "lit-element-sample",
+  "version": "1.0.0",
+  "description": "First time trying make a Lit Elemet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexisDZazueta/LitElementSample.git"
+  },
+  "keywords": [
+    "LitElement",
+    "WebComponents",
+    "JavaScript",
+    "Front"
+  ],
+  "author": "Alexis D. Zazueta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexisDZazueta/LitElementSample/issues"
+  },
+  "homepage": "https://github.com/AlexisDZazueta/LitElementSample#readme",
+  "dependencies": {
+    "lit-element": "^2.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.1",
+    "eslint-config-google": "^0.12.0"
+  }
+}
