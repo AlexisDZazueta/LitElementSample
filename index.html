@@ -6,15 +6,24 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>LitElement Sample</title>
   <link rel="shortcut icon" type="image/png" href="https://raw.githubusercontent.com/Polymer/lit-element/master/docs/images/favicon.png"/>
-  <script type="module" src="./my-element.js"></script>
-  <script type="module" src="./updated-properties.js"></script>
-  <script type="module" src="./loop-condition.js"></script>
-  <script type="module" src="./bind-properties.js"></script>
+  <script type="module" src="./src/my-element.js"></script>
+  <script type="module" src="./src/updated-properties.js"></script>
+  <script type="module" src="./src/loop-condition.js"></script>
+  <script type="module" src="./src/bind-properties.js"></script>
+  <script type="module" src="./src/light-dom.js"></script>
+  <script type="module" src="./src/named-slots.js"></script>
 </head>
 <body>
   <my-element></my-element>
   <updated-properties></updated-properties>
   <loop-condition></loop-condition>
   <bind-properties></bind-properties>
+  <light-dom>
+    <p>Render me</p>
+  </light-dom>
+  <named-slots>
+    <p slot="one">Render</p>
+    <p>Not Render</p>
+  </named-slots>
 </body>
 </html>
