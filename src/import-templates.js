@@ -9,6 +9,7 @@ import './bind-properties';
 import './light-dom';
 import './named-slots';
 import './template-templates';
+import './custom-root';
 /**
  * Component that imports components.
  */
@@ -31,6 +32,7 @@ class ImportTemplates extends LitElement {
         <p>Not Render</p>
       </named-slots>
       <template-templates></template-templates>
+      <custom-root></custom-root>
     `;
   }
 }
