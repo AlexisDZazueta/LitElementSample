@@ -23,7 +23,7 @@ class LoopCondition extends LitElement {
     super();
     this.myString = 'Hello World';
     this.myArray = ['an', 'array', 'of', 'test', 'data'];
-    this.myBool = false;
+    this.myBool = true;
   }
   /**
    * Render the content of component
